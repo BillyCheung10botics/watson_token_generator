@@ -36,6 +36,7 @@ function getCredential (err, data) {
     // console.log(data);
     const apikey = data.match(/(?<=SPEECH_TO_TEXT_APIKEY=)(.*)/g)[0];
     const url = data.match(/(?<=SPEECH_TO_TEXT_URL=)(.*)/g)[0];
+    writeTokenJson(apikey, url, tokenFileName);
     cron.schedule(scheduleInterval, function() {
         console.log(`Cron Job Schedule Time: ${scheduleInterval}:----------------------`)
         console.log("Generating IBM Watson STT Token.")
