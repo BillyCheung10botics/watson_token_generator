@@ -1,7 +1,7 @@
 # watson_token_generator
 This setups a server with a cron job generating a token of IBM Watson STT evey hour.
 
-Currently, this repository is under development. 
+Currently, this repository is under development.(29/04/2021)
 
 ## Build
 1. open a terminal in the root directory 
