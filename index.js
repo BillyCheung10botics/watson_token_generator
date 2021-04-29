@@ -25,7 +25,8 @@ app.get('/', (req, res) => {
 app.use(cors());
 app.use(express.static('public'));
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+    console.log(`listening at ${port}`)
+    // console.log(`Example app listening at http://localhost:${port}`)
 });
 fs.readFile(credentialFileName, 'utf-8', getCredential);
 function getCredential (err, data) {
