@@ -17,4 +17,5 @@ fetch(TOKENJSON_URL)
     const SPEECH_TO_TEXT_TOKEN = data.SPEECH_TO_TEXT_TOKEN;
     Object.assign(token, {accessToken: SPEECH_TO_TEXT_TOKEN, url: SPEECH_TO_TEXT_URL});
     // console.log(token);
+    // run your code here :
 });
