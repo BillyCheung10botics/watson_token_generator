@@ -15,8 +15,8 @@ services:
     # image: apitoken/watsonstt
     environment:
       - TZ=Asia/Hong_Kong
-      - VIRTUAL_HOST=token.10botics.com
-      - LETSENCRYPT_HOST=token.10botics.com
+      - VIRTUAL_HOST=yourdomainname.com
+      - LETSENCRYPT_HOST=yourdomainname.com
       - PORT=49160
     # volumes:
     #   - "./default.conf:/etc/nginx/conf.d/default.conf"
