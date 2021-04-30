@@ -12,8 +12,9 @@ RUN npm install
 # Build app source
 COPY . .
 
-ENV PORT 30000
-ENV TZ UTC
-EXPOSE $PORT
+# ENV PORT 30000
+# ENV TZ UTC
+# EXPOSE $PORT
+EXPOSE 30000
 # need to put the ibm-credentials.env file on the root directory first
 CMD ["node", "index.js"]
