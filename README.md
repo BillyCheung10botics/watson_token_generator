@@ -9,18 +9,16 @@ Currently, this repository is under development.(29/04/2021)
     ```bash
     $ npm install
     ```
-
+3. Put your `ibm-credentials.env` on the root directory. If you don't have a credential file, please refer to [Getting credentials](https://github.com/watson-developer-cloud/node-sdk#getting-credentials).
 ## Run on local computer
-1. Put your `ibm-credentials.env` on the root directory. If you don't have a credential file, please refer to [Getting credentials](https://github.com/watson-developer-cloud/node-sdk#getting-credentials).
-
-2. Run the following command to start a server on http://localhost:30000/.
+1. Run the following command to start a server on http://localhost:30000/.
     ```bash
     $ npm start
     ```
 
-3. You can access your token at http://localhost:30000/WatsonToken.json.
+2. You can access your token at http://localhost:30000/WatsonToken.json.
 
-4. Here is an example (`readjson.js`) to access the token
+3. Here is an example (`readjson.js`) to access the token
 
 ## Run on server
 1. install docker and nginx
