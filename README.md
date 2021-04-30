@@ -36,7 +36,4 @@ Currently, this repository is under development.(29/04/2021)
     ```
     docker-compose up -d --build
     ```
-5. you can access your token json file at 
-    ```
-    https://yourdomainname.com/WatsonToken.json
-    ```
+5. you can access your token json file at https://yourdomainname.com/WatsonToken.json
