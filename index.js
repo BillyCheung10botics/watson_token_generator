@@ -22,7 +22,7 @@ app = express();
 app.get('/', (req, res) => {
     res.send('Hello World!')
   });
-app.use(cors());
+app.use(cors()); //can cause conflict if adding cors header to nginx config, comment out in this case
 app.use(express.static('public'));
 app.listen(port, () => {
     console.log(`listening at ${port}`)
