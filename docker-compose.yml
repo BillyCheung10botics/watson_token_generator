@@ -3,6 +3,7 @@ services:
   nodeserver:
     build:
       context: .
+      image: apitoken/watsonstt
     ports:
       - "30000:30000"
 
